@@ -28,6 +28,7 @@ public class FrogSimulation
 			sum+=hopDistance();
 		}
 		/* to be implemented in part (a) */
+		return false;
 
 	}
 	
