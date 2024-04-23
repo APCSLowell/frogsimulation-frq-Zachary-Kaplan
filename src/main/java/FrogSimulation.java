@@ -20,15 +20,15 @@ public class FrogSimulation
 		{
 			if(sum < 0)
 			{
-				return false;
+				break;
 			} else if(sum >= goalDistance)
 			{
-				return true;
+				break;
 			}
 			sum+=hopDistance();
 		}
 		/* to be implemented in part (a) */
-		return false;
+		return (sum >= goalDistance);
 
 	}
 	
